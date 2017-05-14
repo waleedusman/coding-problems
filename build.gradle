@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.smartsparrow.codingproblems'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.guava:guava:21.0'
+    testCompile 'junit:junit:4.12',
+            'org.hamcrest:hamcrest-library:1.3'
+}
