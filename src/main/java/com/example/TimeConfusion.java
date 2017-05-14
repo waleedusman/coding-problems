@@ -1,4 +1,4 @@
-package com.smartsparrow.codingproblems.waleedusman;
+package com.example;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -88,7 +88,7 @@ public class TimeConfusion {
         if (numTestCases != testCases.size()) {
             throw new IllegalArgumentException("Insufficient test cases provided, must be: " + numTestCases);
         }
-        if (!testCases.stream().allMatch(s -> s.matches("\\d+:\\d+ \\d+:\\d+ \\d+:\\d+"))) {
+        if (!testCases.stream().allMatch(s -> s.matches("\\d{1,2}:\\d{1,2} \\d{1,2}:\\d{1,2} \\d{1,2}:\\d{1,2}"))) {
             throw new IllegalArgumentException("Test case must be of the format; H:M H:M H:M - where both H and M can be parsed as integers");
         }
     }

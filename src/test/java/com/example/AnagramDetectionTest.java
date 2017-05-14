@@ -1,5 +1,6 @@
-package com.smartsparrow.codingproblems.waleedusman;
+package com.example;
 
+import com.example.AnagramDetection;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -1,4 +1,4 @@
-package com.smartsparrow.codingproblems.waleedusman;
+package com.example;
 
 import java.util.ArrayList;
 import java.util.List;

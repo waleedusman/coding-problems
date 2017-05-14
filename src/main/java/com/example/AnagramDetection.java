@@ -1,6 +1,4 @@
-package com.smartsparrow.codingproblems.waleedusman;
-
-import com.google.common.base.CharMatcher;
+package com.example;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -26,7 +24,6 @@ public class AnagramDetection {
         }
 
         int result = 0;
-        Scanner inputScanner = new Scanner(parentString).useDelimiter("");
         for(int i = queryString.length(); i < parentString.length(); i++ ) {
             if (Arrays.equals(queryCharacterCount, slidingWindowCharacterCount)) {
                 result++;

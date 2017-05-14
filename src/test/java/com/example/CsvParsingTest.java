@@ -1,5 +1,6 @@
-package com.smartsparrow.codingproblems.waleedusman;
+package com.example;
 
+import com.example.CsvParsing;
 import org.junit.Test;
 
 import java.util.Arrays;
